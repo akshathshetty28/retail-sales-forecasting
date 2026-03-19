@@ -27,3 +27,29 @@ This project focuses on predicting daily retail sales using historical data. The
    - Implemented time-based split (critical for forecasting)
 4. Model Used:
    - Random Forest Regressor
+
+## Model Performance
+- Baseline MAE: ~1100
+- Final MAE: ~303
+- Improvement: ~72% reduction in error
+
+## Key Insights
+- Promotions significantly increase sales
+- Recent sales trends are the strongest predictors
+- Store-level differences impact performances
+- Seasonality plays a major role in demand
+
+## Visualization
+- Actual vs Predicted Sales comparison
+- Feature importance analysis
+
+## Business Impact 
+- Enables accurate demand forecasting
+- Supports inventory planning
+- Improves promotion strategy effectiveness
+
+## Tools & Technologies
+- Python
+- Pandas, Numpy
+- Matplotlib, Seaborn
+- Scikit-learn
